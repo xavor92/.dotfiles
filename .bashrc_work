@@ -1,0 +1,4 @@
+echo "Source yocto stuff"
+. /data/workspace/build/devbox/provision/bashrc_yocto
+unset YOCTO_DIR
+unset YOCTO_MACHINE

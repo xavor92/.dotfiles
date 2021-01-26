@@ -3,8 +3,13 @@
 # LINKS is an associative list containing a set of src->dest elements for which
 # symlinks will be created. Base dir for src is ~, for dest it's the location
 # of this script
-LINKS=(".tmux.conf.local->.tmux.conf.local"
-".tmux.conf->.tmux/.tmux.conf")
+LINKS=(
+    ".tmux.conf.local->.tmux.conf.local"
+    ".tmux.conf->.tmux/.tmux.conf"
+    ".bashrc_profile->.bashrc_profile"
+    ".bashrc_ssh->.bashrc_ssh"
+    ".bashrc_work->.bashrc_work"
+)
 
 readonly SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 readonly HOMEPATH=~
