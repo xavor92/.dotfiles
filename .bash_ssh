@@ -36,7 +36,11 @@ agent_start() {
 
 add_keys() {
     echo "    SSH: Add Keys"
-    ssh-add
+    for possiblekey in ${HOME}/.ssh/id_*; do
+        if grep -q PRIVATE "$possiblekey"; then
+            ssh-add "$possiblekey"
+        fi
+    done
 }
 
 echo "    SSH: Check if running in this shell already"

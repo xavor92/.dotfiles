@@ -1,12 +1,12 @@
 
-if [ -f ~/.bashrc_ssh ]; then
+if [ -f ~/.bash_ssh ]; then
     echo "Source SSH stuff"
-    . ~/.bashrc_ssh
+    . ~/.bash_ssh
 fi
 
-if [ -f ~/.bashrc_work ]; then
+if [ -f ~/.bash_work ]; then
     echo "Source work stuff"
-    . ~/.bashrc_work
+    . ~/.bash_work
 fi
 
 echo "Set Prompts"
@@ -61,3 +61,6 @@ export PS1="[\[\e[32m\]\u@\h\[\e[m\]:\[\e[34m\]\W\[\e[m\]] \[\e[31m\]\`parse_git
 # minicom defaults
 export MINICOM='-con'
 
+# alias
+alias ll='ls -l'
+alias ls='ls --color=auto'

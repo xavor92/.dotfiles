@@ -6,9 +6,9 @@
 LINKS=(
     ".tmux.conf.local->.tmux.conf.local"
     ".tmux.conf->.tmux/.tmux.conf"
-    ".bashrc_profile->.bashrc_profile"
-    ".bashrc_ssh->.bashrc_ssh"
-    ".bashrc_work->.bashrc_work"
+    ".bash_profile->.bash_profile"
+    ".bash_ssh->.bash_ssh"
+    ".bash_work->.bash_work"
 )
 
 readonly SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
