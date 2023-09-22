@@ -3,6 +3,9 @@ echo "Source yocto stuff"
 unset YOCTO_DIR
 unset YOCTO_MACHINE
 
+echo "Source .keys"
+. ~/.keys
+
 alias rr_myna="while true; do sleep 0.5; serial_relay myna on; echo on; sleep 2; serial_relay myna off; echo off; done"
 
 export BUILDBOX_DOCKER_REGISTRY='deac-artifactoryp01.pc.cognex.com:5012'
