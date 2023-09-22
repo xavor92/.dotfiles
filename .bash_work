@@ -2,3 +2,11 @@ echo "Source yocto stuff"
 . /data/workspace/build/devbox/provision/bashrc_yocto
 unset YOCTO_DIR
 unset YOCTO_MACHINE
+
+alias rr_myna="while true; do sleep 0.5; serial_relay myna on; echo on; sleep 2; serial_relay myna off; echo off; done"
+
+export BUILDBOX_DOCKER_REGISTRY='deac-artifactoryp01.pc.cognex.com:5012'
+
+source /data/workspace/build/devbox/provision/bashrc_dmunlock
+source /data/workspace/build/devbox/provision/bashrc_monkeysphere
+alias dm_unlock='/data/workspace/build/devbox/tools/dm_unlock'
