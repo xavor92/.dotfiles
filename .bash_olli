@@ -1,11 +1,9 @@
 
 if [ -f ~/.bash_ssh ]; then
-    echo "Source SSH stuff"
     . ~/.bash_ssh
 fi
 
 if [ -f ~/.bash_work ]; then
-    echo "Source work stuff"
     . ~/.bash_work
 fi
 
@@ -65,3 +63,6 @@ export PS1="[\[\e[32m\]\u@\h\[\e[m\]:\[\e[34m\]\W\[\e[m\]] \[\e[31m\]\`parse_git
 
 # minicom defaults
 export MINICOM='-con'
+
+echo "Sourcing cd_func stuff"
+source ~/.dotfiles/cd_func/cd_func.sh

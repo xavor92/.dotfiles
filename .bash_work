@@ -4,4 +4,4 @@ source ~/workspace/build/devbox/provision/bashrc_dmunlock
 source ~/workspace/build/devbox/provision/bashrc_monkeysphere
 alias dm_unlock='~/workspace/build/devbox/tools/dm_unlock'
 
-source .keys
+source ~/.dotfiles/.keys
