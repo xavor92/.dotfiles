@@ -4,3 +4,6 @@
 [submodule "cd_func"]
 	path = cd_func
 	url = https://github.com/realchrisolin/cd_func.git
+[submodule "fzf"]
+	path = fzf
+	url = https://github.com/junegunn/fzf.git

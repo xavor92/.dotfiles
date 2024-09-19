@@ -38,3 +38,5 @@ then
         create_symlink ${str}
     done
 fi
+
+echo "This did not install fzf yet, run fzf installer if you want that"
