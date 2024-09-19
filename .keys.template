@@ -1,0 +1,3 @@
+echo "Source keys"
+
+# Usually contains BUILDBOX_DOCKER_REGISTRY, AWS_API_KEY, BUD_API_KEY, NAT_API_KEY, COMPANY_USERNAME

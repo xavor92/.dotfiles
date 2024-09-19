@@ -6,7 +6,7 @@
 LINKS=(
     ".tmux.conf.local->.tmux.conf.local"
     ".tmux.conf->.tmux/.tmux.conf"
-    ".bash_profile->.bash_profile"
+    ".bash_olli->.bash_olli"
     ".bash_ssh->.bash_ssh"
 )
 
