@@ -1,10 +1,10 @@
 
-if [ -f ~/.bash_ssh ]; then
-    . ~/.bash_ssh
+if [ -f ~/.bashrc_ssh ]; then
+    . ~/.bashrc_ssh
 fi
 
-if [ -f ~/.bash_work ]; then
-    . ~/.bash_work
+if [ -f ~/.bashrc_work ]; then
+    . ~/.bashrc_work
 fi
 
 echo "Set Prompts"

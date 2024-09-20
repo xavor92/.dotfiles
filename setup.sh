@@ -6,12 +6,12 @@
 LINKS=(
     ".tmux.conf.local->.tmux.conf.local"
     ".tmux.conf->.tmux/.tmux.conf"
-    ".bash_olli->.bash_olli"
-    ".bash_ssh->.bash_ssh"
+    ".bashrc_olli->.bashrc_olli"
+    ".bashrc_ssh->.bashrc_ssh"
 )
 
 LINKS_WORK=(
-    ".bash_work->.bash_work"
+    ".bashrc_work->.bashrc_work"
 )
 
 readonly SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
